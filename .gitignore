@@ -1,8 +1,10 @@
 # Project specific ignores
 # ignore data folders to minimize upload and download size (data is stored in zip files)
 data/
-# ignore submissions files since they don't matter to the codebase
+# ignore submission files since they don't matter to the codebase
 submissions/
+# ignore model files since they don't matter to the codebase
+models/
 # ignore .DS_Store
 .DS_Store
 # ignore catboost info
